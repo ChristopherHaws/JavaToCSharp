@@ -241,6 +241,10 @@ namespace JavaToCSharp
                         classSyntax = classSyntax.AddMembers(childClass);
                     }
                 }
+                else if (member is EmptyMemberDeclaration)
+                {
+                    context.Options.Warning("Empty Member Declaration will not be ported. Check for correctness.", member.getBegin().line);
+                }
                 else
                 {
                     var syntax = BodyDeclarationVisitor.VisitBodyDeclarationForClass(context, classSyntax, member);
