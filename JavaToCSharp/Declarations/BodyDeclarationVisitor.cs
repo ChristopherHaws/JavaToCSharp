@@ -36,7 +36,6 @@ namespace JavaToCSharp.Declarations
                 { typeof(FieldDeclaration), new FieldDeclarationVisitor() },
                 { typeof(MethodDeclaration), new MethodDeclarationVisitor() },
                 { typeof(InitializerDeclaration), new InitializerDeclarationVisitor() },
-                { typeof(EmptyMemberDeclaration), new EmptyMemberDeclarationVisitor() },
             };
         }
 

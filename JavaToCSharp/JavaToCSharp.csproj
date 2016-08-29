@@ -176,7 +176,6 @@
     <Compile Include="ConversionWarningEventArgs.cs" />
     <Compile Include="Declarations\BodyDeclarationVisitor.cs" />
     <Compile Include="Declarations\ConstructorDeclarationVisitor.cs" />
-    <Compile Include="Declarations\EmptyMemberDeclarationVisitor.cs" />
     <Compile Include="Declarations\EnumDeclarationVisitor.cs" />
     <Compile Include="Declarations\FieldDeclarationVisitor.cs" />
     <Compile Include="Declarations\InitializerDeclarationVisitor.cs" />
